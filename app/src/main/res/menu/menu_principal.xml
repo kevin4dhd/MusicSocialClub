@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:MusicSocialClub="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_m"
+        android:icon="@drawable/ic_more_vert"
+        android:title="menu"
+        MusicSocialClub:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/editarPerfil"
+                android:title="Editar Perfil" />
+            <item
+                android:id="@+id/cambiarPassword"
+                android:title="Cambiar Password" />
+            <item
+                android:id="@+id/cerrarSesion"
+                android:title="Cerrar Sesion" />
+        </menu>
+    </item>
+</menu>
