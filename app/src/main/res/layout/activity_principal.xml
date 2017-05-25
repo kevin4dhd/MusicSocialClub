@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <de.hdodenhof.circleimageview.CircleImageView
-            android:id="@+id/fotoDePerfilAmigos"
+            android:id="@+id/fotoPerfilPost"
             android:layout_width="36sp"
             android:layout_height="36sp"
             android:src="@drawable/ic_action_user" />

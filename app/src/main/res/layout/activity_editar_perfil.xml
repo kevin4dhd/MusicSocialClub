@@ -14,7 +14,7 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
             <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/fotoDePerfilAmigos"
+                android:id="@+id/fotoPerfilPost"
                 android:layout_width="36sp"
                 android:layout_height="36sp"
                 android:src="@drawable/ic_action_user" />
@@ -118,13 +118,27 @@
                 android:paddingRight="25sp"
                 />
         </LinearLayout>
-        <Button
-            android:id="@+id/buttonRegistro"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Registrar"
-            android:theme="@style/MyButton"
-            android:textColorHint="@color/colorWhite"
-            android:layout_gravity="center"/>
+            android:orientation="horizontal"
+            android:gravity="center">
+            <Button
+                android:id="@+id/buttonCancelar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Cancelar"
+                android:theme="@style/MyButton"
+                android:textColorHint="@color/colorWhite"
+                android:layout_gravity="center"/>
+            <Button
+                android:id="@+id/buttonAceptar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Guardar"
+                android:theme="@style/MyButton"
+                android:textColorHint="@color/colorWhite"
+                android:layout_gravity="center"/>
+        </LinearLayout>
     </LinearLayout>
 </ScrollView>

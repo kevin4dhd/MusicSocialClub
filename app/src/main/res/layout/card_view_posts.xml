@@ -3,19 +3,21 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:card_view="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:padding="2sp">
     <android.support.v7.widget.CardView
-        android:id="@+id/cardViewAmigos"
+        android:id="@+id/cardViewPostMusic"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        card_view:contentPadding="10sp">
+        card_view:contentPadding="10sp"
+        card_view:cardCornerRadius="2sp">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/fotoDePerfilAmigos"
+                android:id="@+id/fotoPerfilPost"
                 android:layout_width="48sp"
                 android:layout_height="48sp"
                 android:src="@drawable/ic_action_user"

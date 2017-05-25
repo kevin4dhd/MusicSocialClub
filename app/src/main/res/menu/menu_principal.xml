@@ -16,6 +16,9 @@
             <item
                 android:id="@+id/cerrarSesion"
                 android:title="Cerrar Sesion" />
+            <item
+                android:id="@+id/codigoFuente"
+                android:title="Ver Codigo Fuente" />
         </menu>
     </item>
 </menu>
